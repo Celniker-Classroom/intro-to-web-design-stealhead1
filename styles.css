@@ -19,12 +19,37 @@ html{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    float: right;
+}
+#container{
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 900px;
+    width: min(95%, 900px);
 }
 
-#container{
-    background-color: #78C0E0;
-    text-align: center;
+@media (max-width:1200px){
+    #container{
+        max-width: 80%;
+        width: 95%;
+    }
+}
+@media (max-width:992px){
+    #container{
+        max-width: 80%;
+        width: 95%;
+    }
+}
+@media (max-width:768px){
+    #container{
+        max-width: 80%;
+        width: 95%;
+    }
+}
+body {
+    margin: 0;
+    padding: 0;
 }
 h3{
     color: black;
@@ -43,7 +68,7 @@ a:hover {
 }
 
 a:visited{
-    color: #00ff00;
+    color: purple;
 }
 
 a:active {
