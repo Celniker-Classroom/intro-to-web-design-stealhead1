@@ -29,10 +29,19 @@ html{
     width: min(95%, 900px);
 }
 
+.paragraph {
+    text-align: center;
+    float: center;
+    font-size: 22px;
+}
+
 @media (max-width:1200px){
     #container{
         max-width: 80%;
         width: 95%;
+    }
+    .paragraph{
+        font-size: 20px;
     }
 }
 @media (max-width:992px){
@@ -40,10 +49,16 @@ html{
         max-width: 90%;
         width: 95%;
     }
+    .paragraph{
+        font-size: 17px;
+    }
 }
 @media (max-width:768px){
     #container{
         max-width: 100%;
+    }
+    .paragraph{
+        font-size: 14px;
     }
 }
 body {
