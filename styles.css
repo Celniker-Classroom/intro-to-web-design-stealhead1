@@ -78,7 +78,7 @@ h3 {
   background: rgb(149, 234, 255);
   text-align: left;
   border: black solid 3px;
-  padding: 5px;
+  padding: 7px;
 }
 
 a:link {
@@ -113,4 +113,15 @@ a:active {
 .section {
   /* border: black solid 3px; */
   padding-bottom: 80px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border: black solid 3px;
+  cursor: pointer;
+  float: right;
+  width: 17%;
+  margin: auto;
 }
