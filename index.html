@@ -4,50 +4,76 @@
     <title>About Me</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
     <div id="container">
       <div id="sidebar">Hi, I'm Tymur! Here's a page about me.</div>
       <h1>Tymur Chernykov</h1>
       <h2>Cancerous Tumor</h2>
-      <div class="section">
-    <h3>Video Games<p class="button">expand/collapse</p></h3>
-    <p class="paragraph">
-      In my free time, I like to play video games. Recently I’ve been playing a
-      lot of
-      <a href="https://slaythespire.wiki.gg/wiki/Slay_the_Spire_2_Wiki"target="_blank">Slay the Spire 2</a>, but I usually play FPS, story games and souls-likes. I tend to have a
-      good amount of free time since my classes don’t give a lot of homework or
-      I finish the homework in class. I mostly play on PC, but my parents do
-      have a Nintendo Switch we sometimes use. My computer isn’t the best, but
-      it can run most things.
-    </p>
-    <img src="Images/controller.png" alt="Games Image" class="image" />
-    </div>
-    <div class="section">
-    <h3>Math<p class="button">expand/collapse</p></h3>
 
-    <p class="paragraph">
-      I like to do math, but mostly in school. I tried to do math competitions
-      and study for them, but I never did well in them. I used to be part of the
-      math team but don’t go anymore, since I also didn’t know anyone there. In
-      school however, I like to do it and find it fun, and I usually do well in
-      it. I’m taking calc BC right now, and plan to finish all math classes at
-      this school and a good amount at
-      <a href="https://catalog.miracosta.edu/disciplines/mathematics/" target="_blank">Mira Costa</a>. I find calculus interesting because I can understand the subjects and
-      they have some real world applications.
-    </p>
-    <img src="Images/math.png" alt="Math Book Image" class="image" />
-    </div>
-    <div class="section">
-    <h3>Table Tennis<p class="button">expand/collapse</p></h3>
-    <p class="paragraph">
-      The only sport that I do outside of school is
-      <a href="https://en.wikipedia.org/wiki/Table_tennis" target="_blank">Table Tennis</a>. I’ve been doing it for around a year and a half. I haven’t participated
-      in any competitions, but I plan to. I tried to do tennis, but I find table
-      tennis more fun because of its faster pace. I have a private lesson every
-      Tuesday from 7-8 p.m.
-    </p>
-    <img src="Images/tabletennis.jpg" alt="Table Tennis Image" class="image" />
+      <div class="section">
+        <div class="headers">
+          <h3>Video Games</h3>
+          <div class="toggle-controls">
+            <input type="checkbox" id="checkbox1" class="toggle-checkbox" checked />
+            <label for="checkbox1" class="toggle-label">Show section</label>
+          </div>
+        </div>
+        <div class="collapsible">
+          <p class="paragraph" id="paragraph1">
+            In my free time, I like to play video games. Recently I've been playing a
+            lot of
+            <a href="https://slaythespire.wiki.gg/wiki/Slay_the_Spire_2_Wiki" target="_blank">Slay the Spire 2</a>, but I usually play FPS, story games and souls-likes. I tend to have a
+            good amount of free time since my classes don't give a lot of homework or
+            I finish the homework in class. I mostly play on PC, but my parents do
+            have a Nintendo Switch we sometimes use. My computer isn't the best, but
+            it can run most things.
+          </p>
+          <img src="Images/controller.png" alt="Games Image" class="image" id="image1" />
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="headers">
+          <h3>Math</h3>
+          <div class="toggle-controls">
+            <input type="checkbox" id="checkbox2" class="toggle-checkbox" checked />
+            <label for="checkbox2" class="toggle-label">Show section</label>
+          </div>
+        </div>
+        <div class="collapsible">
+          <p class="paragraph" id="paragraph2">
+            I like to do math, but mostly in school. I tried to do math competitions
+            and study for them, but I never did well in them. I used to be part of the
+            math team but don't go anymore, since I also didn't know anyone there. In
+            school however, I like to do it and find it fun, and I usually do well in
+            it. I'm taking calc BC right now, and plan to finish all math classes at
+            this school and a good amount at
+            <a href="https://catalog.miracosta.edu/disciplines/mathematics/" target="_blank">Mira Costa</a>. I find calculus interesting because I can understand the subjects and
+            they have some real world applications.
+          </p>
+          <img src="Images/math.png" alt="Math Book Image" class="image" id="image2" />
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="headers">
+          <h3>Table Tennis</h3>
+          <div class="toggle-controls">
+            <input type="checkbox" id="checkbox3" class="toggle-checkbox" checked />
+            <label for="checkbox3" class="toggle-label">Show section</label>
+          </div>
+        </div>
+        <div class="collapsible">
+          <p class="paragraph" id="paragraph3">
+            The only sport that I do outside of school is
+            <a href="https://en.wikipedia.org/wiki/Table_tennis" target="_blank">Table Tennis</a>. I've been doing it for around a year and a half. I haven't participated
+            in any competitions, but I plan to. I tried to do tennis, but I find table
+            tennis more fun because of its faster pace. I have a private lesson every
+            Tuesday from 7-8 p.m.
+          </p>
+          <img src="Images/tabletennis.jpg" alt="Table Tennis Image" class="image" id="image3" />
+        </div>
+      </div>
     </div>
   </body>
 </html>
