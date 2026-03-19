@@ -65,7 +65,7 @@ html {
     max-width: 100%;
   }
   .paragraph {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 body {
@@ -86,7 +86,7 @@ h3 {
   background: rgb(149, 234, 255);
   border: black solid 3px;
   padding: 7px;
-  margin: 10px 0;
+  margin: 12px;
 }
 
 .toggle-controls {
